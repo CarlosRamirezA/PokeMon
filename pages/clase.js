@@ -8,7 +8,9 @@ class Clase extends Component {
     return (
       <Base>
         <div className="alert alert-primary">
-          hola
+          <h1>
+            Pagina clase
+          </h1>
         </div>
       </Base>
     )

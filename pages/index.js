@@ -8,20 +8,7 @@ class Index extends Component {
     return (
       <Base>
         <div className="container">
-          <div className="row">
-            <div className="col-sm">
-              One of three columns
-            </div>
-            <div className="col-sm">
-              One of three columns
-            </div>
-          </div>
-        </div>
-        <div>
-          hola
-        </div>
-        <div>
-          bais
+          Hola mundo!.
         </div>
       </Base>
     )
