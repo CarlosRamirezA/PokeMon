@@ -1,8 +1,10 @@
 # PokeMon
 
-## Usaremos la Api
-  https://pokeapi.co/
+## Api de Pokemon TCG
+  https://docs.pokemontcg.io/
 
-
-## Documentacion de NextJs
+## Documentacion de NextJS
   https://nextjs.org/learn/basics/getting-started/setup
+
+## Documentacin de ReactJS
+  https://es.reactjs.org/docs/getting-started.html
