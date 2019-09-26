@@ -27,7 +27,7 @@ class Index extends Component {
           cards.map(item => {
             return (
               <div className="card" style={{"width": "18rem"}} key={item.id}>
-                <img src={item.imageUrl} className="card-img-top" alt="..." />
+                <img src={item.imageUrl} className="card-img-top" alt={item.name} />
                 <div className="card-body">
                   <h5>
                     { item.name }
