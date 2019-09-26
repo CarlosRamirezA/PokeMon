@@ -10,7 +10,7 @@ class Clase extends Component {
         <Header />
         <div className="alert alert-primary">
           <h1>
-            Clase
+            Nosotros
           </h1>
         </div>
       </Base>

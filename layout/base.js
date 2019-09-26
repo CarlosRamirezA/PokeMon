@@ -9,12 +9,12 @@ export default class Base extends Component {
         <Head>
           <link rel="stylesheet" href="../static/boostrap.css" crossOrigin="anonymous" />
         </Head>
+        <div className="container">
         {
           this.props.children
         }
+        </div>
       </>
     )
   }
 }
-
-// Api a USAR: https://pokeapi.co/
