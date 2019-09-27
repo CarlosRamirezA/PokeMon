@@ -3,15 +3,15 @@ import Link from 'next/link'
 
 function Header(props) {
   return (
-    <nav className="navbar navbar-dark bg-dark">
+    <nav className="navbar navbar-light" style={{"background-color": "#e3f2fd"}}>
       <Link href="/">
-        <a className="nav-link active">Home</a>
+        <a className="nav-item nav-link active">Home</a>
       </Link>
       <Link href="/clase">
-        <a className="nav-link">Clases</a>
+        <a className="nav-item nav-link">Clases</a>
       </Link>
       <Link href="/nosotros">
-        <a className="nav-link">Nosotros</a>
+        <a className="nav-item nav-link">Nosotros</a>
       </Link>
     </nav>
   )

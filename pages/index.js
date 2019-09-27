@@ -23,20 +23,33 @@ class Index extends Component {
     return (
       <Base>
         <Header />
+        <div className="row">
         {
           cards.map(item => {
             return (
+              <div className="col-sm-3">
               <div className="card" style={{"width": "18rem"}} key={item.id}>
+              <blockquote class="blockquote mb-0 card-body">
                 <img src={item.imageUrl} className="card-img-top" alt={item.name} />
                 <div className="card-body">
                   <h5>
                     { item.name }
                   </h5>
+                  <h4>
+                   <p>HP : { item.hp } </p>
+                  </h4>
                 </div>
+              </blockquote>
               </div>
+              </div>
+
+              
+              
             )
           })
         }
+        </div>
+        
       </Base>
     )
   }
